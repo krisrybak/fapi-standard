@@ -1,0 +1,5 @@
+/vendor/
+#Ignore Mac temp files
+._*
+.DS_Store
+.subl*

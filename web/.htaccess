@@ -1,0 +1,2 @@
+# Use the front controller as index file.
+DirectoryIndex app.php
