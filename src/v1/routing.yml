@@ -1,0 +1,6 @@
+routes:
+    v1Routing:
+        path:   v1/orders
+        methods: ['GET']
+        controller: orders
+        calls: listRequest

@@ -10,5 +10,8 @@ use Fapi\Component\HttpKernel\Kernel;
  */
 class AppKernel extends Kernel
 {
-
+    public function loadConfiguration()
+    {
+        $this->loadConfig('config.yml');
+    }
 }

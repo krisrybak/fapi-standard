@@ -1,0 +1,8 @@
+routes:
+    extra:
+        path:   //test/route/
+        methods: ['POST']
+        controller: orders
+        calls: listRequest
+imports:
+    - { resource: src/v1 }

@@ -1,0 +1,25 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: kr.dev.bd.local
+    database_port: null
+    database_name: mettraders
+    database_user: root
+    database_password: null
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: ThisTokenIsNotSoSecretChangeIt
+    debug_toolbar: true
+    debug_redirects: false
+    use_assetic_controller: true
+    rkcms_database_driver: mysql
+    rkcms_database_host: localhost
+    rkcms_database_port: 3306
+    rkcms_database_name: redkite
+    rkcms_database_user: root
+    rkcms_database_password: ''
+
+imports:
+    - { resource: more.yml }

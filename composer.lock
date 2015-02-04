@@ -1,0 +1,199 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "95b461ee762bd247a442c790acfeba22",
+    "packages": [
+        {
+            "name": "rybakdigital/fapi",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rybakdigital/fapi.git",
+                "reference": "5b02f55cb3c661884ff3509ecd214eff3ccf6a78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rybakdigital/fapi/zipball/5b02f55cb3c661884ff3509ecd214eff3ccf6a78",
+                "reference": "5b02f55cb3c661884ff3509ecd214eff3ccf6a78",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "rybakdigital/ucc": "dev-master",
+                "symfony/http-foundation": "2.5.*",
+                "symfony/yaml": "2.5.*"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Fapi\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kris Rybak",
+                    "email": "kris@krisrybak.com"
+                }
+            ],
+            "description": "The Flex API framework",
+            "homepage": "http://fapi.com",
+            "keywords": [
+                "api",
+                "framework"
+            ],
+            "time": "2014-12-19 10:16:13"
+        },
+        {
+            "name": "rybakdigital/ucc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rybakdigital/ucc.git",
+                "reference": "df097cd850617fa2fbe069348c11b523d4573d9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rybakdigital/ucc/zipball/df097cd850617fa2fbe069348c11b523d4573d9c",
+                "reference": "df097cd850617fa2fbe069348c11b523d4573d9c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ucc\\": "/Ucc"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Kris Rybak",
+                    "email": "kris.rybak@krisrybak.com"
+                }
+            ],
+            "description": "Universal Class Collection",
+            "time": "2015-01-14 08:57:41"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "version": "2.5.x-dev",
+            "target-dir": "Symfony/Component/HttpFoundation",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/HttpFoundation.git",
+                "reference": "cba266f6023ce3bcc2998707ddbabbd449ca703c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/cba266f6023ce3bcc2998707ddbabbd449ca703c",
+                "reference": "cba266f6023ce3bcc2998707ddbabbd449ca703c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/expression-language": "~2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\HttpFoundation\\": ""
+                },
+                "classmap": [
+                    "Symfony/Component/HttpFoundation/Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony HttpFoundation Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-01-13 07:22:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "2.5.x-dev",
+            "target-dir": "Symfony/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Yaml.git",
+                "reference": "8a4279a6cc6052b7a67404c191b2e56779c5d47d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/8a4279a6cc6052b7a67404c191b2e56779c5d47d",
+                "reference": "8a4279a6cc6052b7a67404c191b2e56779c5d47d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Yaml Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-01-09 18:07:12"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "rybakdigital/fapi": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": []
+}

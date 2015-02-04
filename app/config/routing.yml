@@ -1,0 +1,60 @@
+imports:
+    - { resource: src }
+    - { resource: src/routing_extra.yml }
+routes:
+    saveOrders:
+        path:   /
+        methods: ['POST']
+        controller: orders
+        calls: saveRequest
+
+    listOrders:
+        path:   /
+        methods: ['GET']
+        controller: orders
+        calls: listRequest
+
+    readOrder:
+        path:   v1/orders/{orderSpec}
+        methods: ['GET', 'PUT']
+        controller: orders
+        calls: readRequest
+        requirements:
+            orderSpec: int
+
+
+    readProduct:
+        path:   v1/products/{productName}/category/{category}
+        methods: ['GET']
+        controller: orders
+        calls: readRequest
+        requirements:
+            productName: str
+            category:   str
+
+    readProductId:
+        path:   v1/products/{productId}/category/{category}
+        methods: ['GET']
+        controller: orders
+        calls: readRequest
+        requirements:
+            productId: str
+            category:   int
+
+    getProductId:
+        path:   v1/products/{productId}/category/{category}
+        methods: ['GET']
+        controller: orders
+        calls: readRequest
+        requirements:
+            productId: str
+            category:   int
+
+    getProductM:
+        path:   v1/products/{productId}/category/{category}
+        methods: ['GET']
+        controller: v1\Orders\Orders
+        calls: readRequest
+        requirements:
+            productId: int
+            category:   int
